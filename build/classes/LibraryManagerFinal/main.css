@@ -1,0 +1,44 @@
+.table-cell {
+    -fx-alignment: center;
+    -fx-skin: "com.sun.javafx.scene.control.skin.TableCellSkin";
+    -fx-padding: 0.166667em;
+    -fx-background-color: transparent;
+    -fx-border-color: transparent -fx-table-cell-border-color transparent transparent;
+    -fx-border-width: 0.083333em;
+    -fx-cell-size: 2.0em;
+    -fx-text-fill: -fx-text-inner-color;
+}
+.text-area {
+    /*-fx-background-color: #33ffcc;*/
+/*    -fx-font-family: Consolas;
+    -fx-font-size: 15;
+    -fx-text-fill: #ffffff;*/
+    /*-fx-display-caret:true;*/
+}
+.text-area .scroll-pane {
+}
+.text-area .content {
+    -fx-background-color: #33ffcc;
+    -fx-alignment: CENTER;
+    -fx-text-alignment: center;
+}
+.root{
+    -fx-background-color: #33ffcc;
+    /*-fx-background-image: url("back.jpg");*/
+     /*-fx-background-repeat: x;*/   
+    /*-fx-background-size: 950 650;*/
+    /*-fx-background-position: center center;*/
+    /*-fx-effect: dropshadow(three-pass-box, black, 30, 0.5, 0, 0);*/ 
+}
+
+.button {
+/*    -fx-text-fill: white;
+    -fx-font-family: "Arial Narrow";
+    -fx-font-weight: bold;
+    -fx-background-color: linear-gradient(#61a2b1, #2A5058);
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );*/
+}
+.button:hover {
+    /*-fx-background-color: #ccccff;*/
+    -fx-background-color: linear-gradient(#9999ff,#ccccff );
+}

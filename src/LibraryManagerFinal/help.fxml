@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.text.Font?>
+
+
+<TextArea fx:id="a" editable="false" maxHeight="1.7976931348623157E308" maxWidth="-Infinity" minHeight="485.0" minWidth="-Infinity" prefWidth="640.0" text=" &#10;1) Adding Student File&#10;   &#10;      a) Simply create a file with name, registration number, session in microsoft excel&#10;      b) Save the file in   *.CSV format&#10;      c) File should be exactly same format as said.&#10;      d) Don't use any column header/name.  Sample is given below...&#10;      &#10;      First Column                                    Second Column                 Third Column&#10;      --------------                                    -----------------                 ----------------&#10;      Md. Shah Ali                                    2013337023                       2013-14&#10;      Md. Saddam Hossain Shahed         2013337035                       2013-14&#10;      Md. Nazmul Haque                         2013337053                       2013-14&#10;      Md. Atikul Islam                              2014337057                       2014-15&#10;      Md. Anam Ibn Harun                      2015331023                       2015-16&#10;&#10;2) Adding Book File&#10;&#10;      a) Simply create a file with name, book ID, number of book in microsoft excel&#10;      b) Save the file in   *.CSV format&#10;      c) File should be exactly same format as said.&#10;      d) Don't use any column header/name.  Sample is given below...&#10;      &#10;      First Column                                    Second Column                 Third Column&#10;      --------------                                    -----------------                 ----------------&#10;      Food Science                                   102                                     1&#10;      Food Microbiology                          105                                     3&#10;      Tea Science                                      103                                     2&#10;" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="LibraryManagerFinal.HelpController">
+   <font>
+      <Font size="14.0" />
+   </font>
+</TextArea>

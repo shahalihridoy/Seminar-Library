@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.web.HTMLEditor?>
+
+<AnchorPane id="AnchorPane" fx:id="pan" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="LibraryManagerFinal.BodyController">
+   <children>
+      <Button layoutX="181.0" layoutY="32.0" mnemonicParsing="false" text="Button" />
+      <Button layoutX="40.0" layoutY="32.0" mnemonicParsing="false" text="Button" />
+      <Button layoutX="349.0" layoutY="32.0" mnemonicParsing="false" text="Button" />
+      <HTMLEditor htmlText="&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body contenteditable=&quot;true&quot;&gt;&lt;/body&gt;&lt;/html&gt;" layoutX="40.0" layoutY="93.0" prefHeight="200.0" prefWidth="506.0" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<StackPane maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="245.0" prefWidth="479.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <VBox>
+         <children>
+            <Label text="Name - FET Seminar Library">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label text="Version - 1.0.0">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label text="Release Date - 01/05/2017">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label>
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label text="Developed by, ">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label text="Md. Shah Ali Hridoy">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label text="Registration No - 2013337023">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label text="Department of Food Engineering &amp; Tea Technology">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label text="Shahjalal University of Scieince &amp; Technology, Sylhet - 3100">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+         </children>
+      </VBox>
+   </children>
+</StackPane>

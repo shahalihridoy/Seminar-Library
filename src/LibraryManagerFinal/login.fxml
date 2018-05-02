@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="256.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="LibraryManagerFinal.LoginController">
+   <children>
+      <Label layoutX="161.0" layoutY="69.0" text="User Name ::">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="161.0" layoutY="115.0" text="Password ::">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="userbox" layoutX="264.0" layoutY="65.0" promptText="username">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </TextField>
+      <PasswordField fx:id="passbox" layoutX="264.0" layoutY="110.0" promptText="password">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </PasswordField>
+      <Button fx:id="loginbutton" layoutX="380.0" layoutY="162.0" mnemonicParsing="false" onAction="#login" text="Log in">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="forgotbutton" layoutX="161.0" layoutY="162.0" mnemonicParsing="false" onAction="#forgotPassword" text="Forgot Password">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

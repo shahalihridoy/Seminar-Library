@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.Region?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="LibraryManagerFinal.MenuController">
+   <children>
+      <MenuBar fx:id="menubar" maxHeight="-Infinity" minHeight="-Infinity" prefHeight="27.0" prefWidth="367.0">
+         <menus>
+            <Menu mnemonicParsing="false" text="Home">
+               <items>
+                  <MenuItem mnemonicParsing="false" onAction="#home" text="Home" />
+               </items>
+            </Menu>
+            <Menu mnemonicParsing="false" onAction="#student" text="Sudent">
+               <items>
+                  <MenuItem mnemonicParsing="false" onAction="#student" text="Add Student" />
+                  <MenuItem mnemonicParsing="false" onAction="#viewStudentList" text="View List" />
+               </items>
+            </Menu>
+            <Menu mnemonicParsing="false" text="Book">
+               <items>
+                  <MenuItem mnemonicParsing="false" onAction="#addBook" text="Add Book" />
+                  <MenuItem mnemonicParsing="false" onAction="#viewList" text="View List" />
+               </items>
+            </Menu>
+            <Menu mnemonicParsing="false" text="Search">
+               <items>
+                  <MenuItem mnemonicParsing="false" onAction="#search" text="Registration No." />
+                  <MenuItem mnemonicParsing="false" onAction="#search" text="Book ID" />
+                  <MenuItem mnemonicParsing="false" onAction="#search" text="Book Name" />
+               </items>
+            </Menu>
+            <Menu mnemonicParsing="false" text="History">
+              <items>
+                <MenuItem mnemonicParsing="false" onAction="#history" text="Check History" />
+                  <MenuItem mnemonicParsing="false" onAction="#clear" text="Clear History" />
+              </items>
+            </Menu>
+            <Menu mnemonicParsing="false" text="Admin">
+               <items>
+                  <MenuItem mnemonicParsing="false" onAction="#admin" text="Change User Name" />
+                  <MenuItem mnemonicParsing="false" onAction="#admin" text="Change Password" />
+               </items>
+            </Menu>
+            <Menu mnemonicParsing="false" text="Help">
+               <items>
+                  <MenuItem mnemonicParsing="false" onAction="#help" text="Adding File" />
+                  <MenuItem mnemonicParsing="false" onAction="#restoreDatabase" text="Restore Database" />
+                  <MenuItem fx:id="backup" mnemonicParsing="false" onAction="#changeBackup" text="Change Bckup Folder" />
+               </items>
+            </Menu>
+            <Menu mnemonicParsing="false" text="About">
+               <items>
+                  <MenuItem fx:id="about" mnemonicParsing="false" onAction="#about" text="About" />
+               </items>
+            </Menu>
+         </menus>
+      </MenuBar>
+      <Region prefHeight="22.0" prefWidth="736.0" />
+      <BorderPane>
+         <center>
+            <ImageView fitHeight="92.0" fitWidth="825.0" pickOnBounds="true" preserveRatio="true" BorderPane.alignment="CENTER">
+               <image>
+                  <Image url="@header.jpg" />
+               </image>
+            </ImageView>
+         </center>
+      </BorderPane>
+   </children>
+</VBox>
